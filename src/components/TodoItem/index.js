@@ -1,10 +1,11 @@
 import React from "react"
+import './style.css';
 
 function TodoItem () {
 	return (
 		<div className="todo-item">
 			<input type="checkbox" />
-			<p>I check</p>		
+			<p>Item 1</p>		
 		</div>
 	)
 }

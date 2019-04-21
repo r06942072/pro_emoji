@@ -1,0 +1,8 @@
+.todo-item {
+  padding: 15px;
+  position: relative;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  text-align: center;
+  color: #FF0000; /*yellow*/
+}
