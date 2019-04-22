@@ -25,7 +25,7 @@ class TodoItem extends Component {
 	}
 	*/
   render() {
-    console.log('TodoItem render: ' + this.state.isChecked);
+    //console.log('TodoItem render: ' + this.state.isChecked);
     return (
       <div className={this.state.isChecked ? 'item-checked' : 'item-unchecked'}>
         <input
