@@ -1,8 +1,17 @@
-.todo-item {
+.item-unchecked {
   padding: 15px;
   position: relative;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 15px;
   text-align: center;
   color: #FF0000; /*yellow*/
+}
+
+.item-checked {
+  padding: 15px;
+  position: relative;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  text-align: center;
+  color: #FFFFFF; 
 }
