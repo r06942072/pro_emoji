@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import TodoItem from "../TodoItem/"
-//import Conditional from "../Conditional/"
 import PlusMinus from "../PlusMinus/"
 import Loading from "../Loading/"
 import Form from "../Form/"
@@ -9,19 +8,10 @@ import Form from "../Form/"
 class App extends Component {
 	constructor() {
 		super()
-		this.state = {
-			isLoading: true,
-		}
+		this.state = {}
 	}
 	//method in the class
 	//lifecycle method
-	componentDidMount() {
-		setTimeout(() => {
-			this.setState({
-				isLoading: false
-			})
-		}, 1500)
-	}
 	render() {
 		return (
 			<React.Fragment>

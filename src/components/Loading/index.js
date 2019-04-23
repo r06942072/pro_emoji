@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import presentation from "./presentation"
+import Presentation from "./presentation";
 
 class Loading extends Component {
 	constructor() {
@@ -14,11 +14,11 @@ class Loading extends Component {
 			this.setState({
 				isLoading: false
 			})
-		}, 1500)
+		}, 3000)
 	}
 	render() {
 		return (
-			<presentation 
+			<Presentation 
 				data={this.state}
 			/>
 		);

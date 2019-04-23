@@ -4,7 +4,7 @@
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 15px;
   text-align: center;
-  color: #FF0000; /*yellow*/
+  color: #FF0000; 
 }
 
 .item-checked {
@@ -13,5 +13,5 @@
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 15px;
   text-align: center;
-  color: #FFFFFF; 
+  color: #000000; 
 }

@@ -1,4 +1,5 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
+import Presentation from './presentation'
 import './style.css';
 
 class TodoItem extends Component {
@@ -8,10 +9,9 @@ class TodoItem extends Component {
       task: this.props.task,
       isChecked: false,
     };
-    this.toggleCheckbox = this.toggleCheckbox.bind(this);
   }
   //method in the class
-  toggleCheckbox() {
+  handleChange = () => {
     this.setState({
       isChecked: !this.state.isChecked,
     });
@@ -27,14 +27,10 @@ class TodoItem extends Component {
   render() {
     //console.log('TodoItem render: ' + this.state.isChecked);
     return (
-      <div className={this.state.isChecked ? 'item-checked' : 'item-unchecked'}>
-        <input
-          type="checkbox"
-          checked={this.state.isChecked}
-          onChange={this.toggleCheckbox}
-        />
-        <p> {this.state.task} </p>
-      </div>
+			<Presentation
+				data={this.state}
+        handleChange={this.handleChange}
+			/>
     );
   }
 }
