@@ -2,7 +2,7 @@
 //What kind of data I have? (attribute)
 //How to I process the data? (function)
 import React, { Component } from 'react';
-import PlusMinusComponent from "./PlusMinusComponent"
+import Presentation from "./presentation"
 
 class PlusMinus extends Component {
 	constructor() {
@@ -24,10 +24,10 @@ class PlusMinus extends Component {
 	}
 	render() {
 		return (
-			<PlusMinusComponent 
-			plusClick={this.plusClick}
-			minusClick={this.minusClick}
-			data={this.state}
+			<Presentation 
+				plusClick={this.plusClick}
+				minusClick={this.minusClick}
+				data={this.state}
 			/>
 		);
 	}

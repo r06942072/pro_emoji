@@ -18,7 +18,7 @@ class Loading extends Component {
 	}
 	render() {
 		return (
-			<Presentation 
+			<Presentation
 				data={this.state}
 			/>
 		);
