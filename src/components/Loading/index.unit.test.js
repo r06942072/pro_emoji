@@ -5,13 +5,14 @@ import Adapter from 'enzyme-adapter-react-16';
 
 Enzyme.configure({ adapter: new Adapter });
 
-describe('Album', () => {
-	it('Find method', () => {
+describe('First test', () => {
+	it('render exist', () => {
 		const wrapper = shallow(<Loading />);
-		
+
 		expect(wrapper.exists()).toBe(true);
 		//expect(wrapper.find('h1').text).toEqual('sss');
 	});
+	
 });
 /*
 class Loading extends Component {
