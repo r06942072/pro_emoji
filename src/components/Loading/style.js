@@ -6,7 +6,3 @@ export const Wrapper = styled.section`
     background: ${props => (props.isLoading? 'pink': 'papayawhip')};
     color: blue;
 `;
-
-export const Button = styled.button`
-    color: ${props => (props.count>=0? 'black': 'red')};
-`;

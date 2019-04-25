@@ -1,7 +1,7 @@
 //Presentation Layer, UI
 //Display logic
 import React from 'react'; //to handle JSX syntax
-import * as MyCSS from '../App/style';
+import * as MyCSS from './style';
 
 function Presentation(props) {
     return (

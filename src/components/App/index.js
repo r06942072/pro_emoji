@@ -4,7 +4,6 @@ import PlusMinus from "../PlusMinus/"
 import Loading from "../Loading/"
 import Form from "../Form/"
 
-
 class App extends Component {
 	constructor() {
 		super()
@@ -15,7 +14,7 @@ class App extends Component {
 	render() {
 		return (
 			<React.Fragment>
-				<div className="todo-list">
+				<div>
 					<p>Changing style when checked</p>
 					<TodoItem task={"Learning React"} />
 					<TodoItem task={"Cleaning Room"} />

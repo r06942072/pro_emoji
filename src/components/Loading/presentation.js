@@ -2,7 +2,7 @@
 //Display logic
 import React from 'react'; //to handle JSX syntax
 //import { Wrapper } from '../style'
-import * as MyCSS from '../App/style';
+import * as MyCSS from './style';
 
 function Presentation(props) {
     let isLoading = props.data.isLoading;
