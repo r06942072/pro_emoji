@@ -12,7 +12,6 @@ describe('First test', () => {
 		expect(wrapper.exists()).toBe(true);
 		//expect(wrapper.find('h1').text).toEqual('sss');
 	});
-	
 });
 /*
 class Loading extends Component {
