@@ -1,6 +1,4 @@
-//Business Logic Layer
-//What kind of data I have? (attribute)
-//How to I process the data? (function)
+//PlusMinus
 import React, { Component } from 'react';
 import Presentation from "./presentation"
 

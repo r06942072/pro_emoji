@@ -2,7 +2,7 @@
 //What kind of data I have? (attribute)
 //How to I process the data? (function)
 import React, { Component } from 'react';
-import FormComponent from "./FormComponent"
+import Presentation from "./presentation"
 
 class Form extends Component {
 	constructor() {
@@ -22,14 +22,14 @@ class Form extends Component {
 	//method in the class
 	handleChange = (event) => {
 		const { name, value, type, checked } = event.target;
-		type === "checkbox" ?
+		(type === "checkbox") ?
 			this.setState({
 				[name]: checked
 			})
 			:
 			this.setState({
 				[name]: value
-			})
+			});
 		/*
 		Condition? True: False
 		if (type === "checkbox"){}
@@ -38,7 +38,7 @@ class Form extends Component {
 	}
 	render() {
 		return (
-			<FormComponent
+			<Presentation
 				handleChange={this.handleChange}
 				data={this.state}
 			/>

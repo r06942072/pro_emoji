@@ -1,10 +1,9 @@
-//Presentation Layer, UI
-//Display logic
+//Form
 import React from 'react'; //to handle JSX syntax
 
 //We don't need to handle the state, so just use functional component instead of class component
 //class FormComponent extends React.Component()
-function FormComponent(props) {
+function Presentation(props) {
     return (
         <div>
             <form>
@@ -93,4 +92,4 @@ function FormComponent(props) {
         </div>
     );
 }
-export default FormComponent
+export default Presentation
