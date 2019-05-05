@@ -1,5 +1,8 @@
+- All the component in this folder level can access store, except component inside elements
+
 - [Unittest--Enzyme] different between shallow and mount 
-  - See components/PlusMinus/unit.test.js
+  - See components/PlusMinus/unit.test.js 
+
 <br />
 
 - Let's define **block** and **element**
